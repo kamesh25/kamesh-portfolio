@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kamesh Manikonda – AI & Cloud Engineer</title>
+  <meta name="description" content="Portfolio of Kamesh Manikonda – AI/GenAI, Cloud, and Data Engineering. RAG, LangChain, AWS Bedrock, EKS, Spark, Kafka, and scalable microservices." />
+  <style>
+    :root {
+      --bg: #0b0f19; --card:#121829; --muted:#9da3af; --ink:#e5e7eb; --accent:#7c3aed; --line:#20263b;
+    }
+    *{box-sizing:border-box} html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif}
+    a{color:var(--ink);text-decoration:none;border-bottom:1px solid transparent}
+    a:hover{border-color:var(--accent)}
+    .wrap{max-width:1100px;margin:0 auto;padding:28px}
+    header{display:flex;gap:20px;align-items:center;justify-content:space-between}
+    .chip{padding:6px 10px;border:1px solid var(--line);border-radius:999px;color:var(--muted)}
+    .cta{background:var(--accent);color:white;padding:10px 16px;border-radius:12px;border:none;cursor:pointer;font-weight:600}
+    .hero{display:grid;grid-template-columns:1.1fr .9fr;gap:28px;align-items:center;margin:26px 0}
+    .hero h1{font-size:36px;line-height:1.15;margin:0 0 10px}
+    .hero p{color:var(--muted);margin:0 0 16px}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px}
+    h2{margin:22px 0 10px;font-size:22px}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .stack{display:flex;flex-wrap:wrap;gap:8px}
+    .tag{background:#0f1424;border:1px solid var(--line);color:var(--muted);padding:6px 10px;border-radius:999px;font-size:13px}
+    .list{padding-left:18px;margin:8px 0;color:var(--muted)}
+    footer{color:var(--muted);padding:22px 0;border-top:1px solid var(--line);margin-top:28px}
+    .kpi{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:12px}
+    .kpi .card{padding:14px;text-align:center}
+    .kpi h3{margin:0;font-size:20px}
+    .kpi p{margin:6px 0 0;color:var(--muted);font-size:13px}
+    @media (max-width:900px){.hero{grid-template-columns:1fr}.grid{grid-template-columns:1fr}.kpi{grid-template-columns:1fr 1fr}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="stack" style="align-items:center">
+        <span class="chip">Available for freelance</span>
+      </div>
+      <div class="stack">
+        <a href="#work">Work</a>
+        <a href="#services">Services</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </header>
+
+    <section class="hero card">
+      <div>
+        <h1>Hi, I'm <span style="color:var(--accent)">Kamesh Manikonda</span> — AI & Cloud Engineer</h1>
+        <p>I design and build production-grade AI systems and data platforms: RAG/agents with AWS Bedrock & LangChain, real-time pipelines with Spark/Kinesis, and resilient microservices on Kubernetes (EKS). I focus on reliability, cost efficiency, and fast delivery.</p>
+        <div class="stack">
+          <a class="cta" href="#contact">Start a project</a>
+          <a class="chip" href="mailto:kamesh.manikonda@gmail.com">kamesh.manikonda@gmail.com</a>
+        </div>
+        <div class="kpi">
+          <div class="card"><h3>99.99%</h3><p>uptime targets met</p></div>
+          <div class="card"><h3>200M+/day</h3><p>events processed</p></div>
+          <div class="card"><h3>25%↓</h3><p>infra cost reduced</p></div>
+          <div class="card"><h3>2s</h3><p>real-time SLAs</p></div>
+        </div>
+      </div>
+      <div class="card">
+        <h2>What I do</h2>
+        <ul class="list">
+          <li>Design RAG pipelines and AI agents with Bedrock, LangChain, vector stores</li>
+          <li>Integrate LLMs with existing apps via secure APIs & event-driven workflows</li>
+          <li>Build real-time data pipelines (Spark, Kafka/Kinesis, Redshift)</li>
+          <li>Productionize on AWS/EKS with observability, autoscaling, and DR</li>
+        </ul>
+        <div class="stack" style="margin-top:10px">
+          <span class="tag">RAG</span><span class="tag">Agents</span><span class="tag">LangChain</span><span class="tag">AWS Bedrock</span><span class="tag">EKS</span><span class="tag">Spark</span><span class="tag">Kafka</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="work">
+      <h2>Selected Work (anonymized)</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>GenAI Automation for Advertising Platform</h3>
+          <p class="muted">Fortune 100, AdTech (confidential)</p>
+          <ul class="list">
+            <li>Built AI automation tools (RAG + agents) to accelerate operational workflows and content generation.</li>
+            <li>Delivered secure prompt/agent orchestration with audit trails and guardrails.</li>
+            <li>Outcomes: faster delivery, lower human effort, and measurable cost reduction.</li>
+          </ul>
+          <div class="stack">
+            <span class="tag">Bedrock</span><span class="tag">LangChain</span><span class="tag">Vector DB</span><span class="tag">IAM</span>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Real‑time Data Platform Modernization</h3>
+          <p class="muted">Aviation & Operations (confidential)</p>
+          <ul class="list">
+            <li>Migrated 50+ services to AWS; implemented event-driven design for high-scale operations.</li>
+            <li>Built analytics for time-sensitive business flows with dashboards and SLAs.</li>
+            <li>Outcomes: 3x scalability, minutes-to-recovery failover, and 40% cost optimization.</li>
+          </ul>
+          <div class="stack">
+            <span class="tag">EKS</span><span class="tag">Kafka</span><span class="tag">Redis</span><span class="tag">Spring Boot</span>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Subscription & Payments Microservices</h3>
+          <p class="muted">Media & Streaming (confidential)</p>
+          <ul class="list">
+            <li>Designed REST APIs for subscription lifecycle and payment orchestration.</li>
+            <li>Standardized validation and test frameworks for faster, safer releases.</li>
+            <li>Outcomes: improved reliability, reduced incidents, and smoother scale-ups.</li>
+          </ul>
+          <div class="stack">
+            <span class="tag">Java</span><span class="tag">Spring</span><span class="tag">Postgres</span><span class="tag">Spark SQL</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="services">
+      <h2>Services</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Custom RAG & AI Agents</h3>
+          <p>Design, build, and deploy production-grade retrieval pipelines and autonomous tools with safety guardrails.</p>
+          <ul class="list">
+            <li>Knowledge ingestion, chunking, embeddings, evaluation</li>
+            <li>Prompt/Tool orchestration, governance, observability</li>
+            <li>Deployment on AWS (Bedrock, Lambda/EKS)</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Data Pipelines & Real-time Systems</h3>
+          <p>High-throughput pipelines with strict SLAs and robust monitoring.</p>
+          <ul class="list">
+            <li>Spark, Kafka/Kinesis, Redshift, Lakehouse (Parquet/Iceberg)</li>
+            <li>Streaming + batch designs with backfills & schema evolution</li>
+            <li>Cost optimization and reliability engineering</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Cloud Architecture & Migrations</h3>
+          <p>Modernize services and safely move to AWS with IaC and zero-downtime patterns.</p>
+          <ul class="list">
+            <li>Kubernetes (EKS), API Gateway, DynamoDB/RDS, OpenSearch</li>
+            <li>IaC with Terraform/CloudFormation, CI/CD and policy-as-code</li>
+            <li>DR strategies, multi-AZ topologies, and performance tuning</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="stack">
+        <span class="tag">Generative AI</span><span class="tag">RAG</span><span class="tag">LangChain</span><span class="tag">AWS Bedrock</span><span class="tag">Python</span><span class="tag">Java</span><span class="tag">API Design</span><span class="tag">Kafka</span><span class="tag">Kinesis</span><span class="tag">Spark</span><span class="tag">Redshift</span><span class="tag">EKS</span><span class="tag">Docker</span><span class="tag">Observability</span>
+      </div>
+    </section>
+
+    <section id="contact" class="card" style="margin-top:22px">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:kamesh.manikonda@gmail.com">kamesh.manikonda@gmail.com</a></p>
+      <p>Location: Frisco, TX (Remote-friendly)</p>
+      <p>Available for: fixed-scope projects, retainers, and advisory.</p>
+    </section>
+
+    <footer>
+      <div class="wrap" style="padding:0">
+        © <script>document.write(new Date().getFullYear())</script> Kamesh Manikonda. All work examples are anonymized to respect confidentiality.
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
